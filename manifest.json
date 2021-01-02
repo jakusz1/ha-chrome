@@ -1,0 +1,19 @@
+{
+  "name": "HomeAssistant",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "HA popup",  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "HomeAssistant",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "<all_urls>"
+  ]
+}
